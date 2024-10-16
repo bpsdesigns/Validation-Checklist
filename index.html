@@ -56,13 +56,13 @@
                     <div class="col-md-12">
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="name" placeholder="Your name">
-                            <label for="name">Your name</label>
+                            <input type="text" class="form-control" id="s0-1" placeholder="Your name">
+                            <label for="s0-1">Your name</label>
                         </div>
 
                           <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="Your email">
-                            <label for="email">Your email</label>
+                            <input type="email" class="form-control" id="s0-2" placeholder="Your email">
+                            <label for="s0-2">Your email</label>
                         </div>
                         
                     </div>
@@ -76,28 +76,28 @@
                     <div class="col-md-12">
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="applicant" placeholder="Applicant/agent name">
-                            <label for="applicant">Applicant/agent name</label>
+                            <input type="text" class="form-control" id="s1-1" placeholder="Applicant/agent name">
+                            <label for="s1-1">Applicant/agent name</label>
                         </div>  
                         
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="ref" placeholder="Planning portal reference (if applicable)">
-                            <label for="ref">Planning portal reference (if applicable)</label>
+                            <input type="text" class="form-control" id="s1-2" placeholder="Planning portal reference (if applicable)">
+                            <label for="s1-2">Planning portal reference (if applicable)</label>
                         </div>  
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="application_number" placeholder="Local authority planning application number (if allocated)">
-                            <label for="application_number">Local authority planning application number (if allocated)</label>
+                            <input type="text" class="form-control" id="s1-3" placeholder="Local authority planning application number (if allocated)">
+                            <label for="s1-3">Local authority planning application number (if allocated)</label>
                         </div>  
 
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" id="site_address" placeholder="Site address" style="height: 150px"></textarea>
-                            <label for="site_address">Site address</label>
+                            <textarea class="form-control" id="s1-4" placeholder="Site address" style="height: 150px"></textarea>
+                            <label for="s1-4">Site address</label>
                         </div>  
 
                         <div class="form-floating mb-3">
-                            <textarea class="form-control" id="description" placeholder="Description of development" style="height: 150px"></textarea>
-                            <label for="description">Description of development</label>
+                            <textarea class="form-control" id="s1-5" placeholder="Description of development" style="height: 150px"></textarea>
+                            <label for="s1-5">Description of development</label>
                         </div> 
 
                     </div>
@@ -111,11 +111,11 @@
 
                     <div class="col-md-12">
 
-                        <p>Does the application seek to remove or vary conditions on an existing planning permission (i.e. Is it a Section 73 application)?</p>
+                        <p>a) Does the application seek to remove or vary conditions on an existing planning permission (i.e. Is it a Section 73 application)?</p>
 
                         <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" id="vary_conditions_yes">
-                            <label class="form-check-label" for="vary_conditions_yes">
+                            <input class="form-check-input" type="radio" name="s2-1" id="s2-1a">
+                            <label class="form-check-label" for="s2-1a">
                             Yes
                             </label>
                         </div>
@@ -123,8 +123,8 @@
                         <div class="form-text text-danger mb-3">If 'Yes', please complete the rest of this question</div>
 
                         <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" value="1" id="vary_conditions_no">
-                            <label class="form-check-label" for="vary_conditions_no">
+                            <input class="form-check-input" type="radio" name="s2-1" id="s2-1b">
+                            <label class="form-check-label" for="s2-1b">
                             No
                             </label>
                         </div>
@@ -132,14 +132,57 @@
                         <div class="form-text text-danger mb-3">If 'No', you can skip to <strong>Question 3</strong></div>
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="application_ref" placeholder="Please enter the application reference number">
-                            <label for="application_ref">Please enter the application reference number</label>
+                            <input type="text" class="form-control" id="application_ref" placeholder="b) Please enter the application reference number">
+                            <label for="application_ref">b) Please enter the application reference number</label>
                         </div> 
+
+                        <p>c) Does the application involve a change in the amount or use of new build development, where the total (including that previously granted planning permission) is over 100 square metres gross internal area?</p>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="s2-2" id="s2-2a">
+                            <label class="form-check-label" for="s2-2a">
+                            Yes
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="s2-2" id="s2-2b">
+                            <label class="form-check-label" for="s2-2b">
+                            No
+                            </label>
+                        </div>
+
+                        <p>d) Does the application involve a change in the amount of gross internal area where one or more new dwellings (including residential annexes) are to be created, either through new build or conversi (except the conversion of a single dwelling house into two or more separate dwellings with no additional gross internal area created)?</p>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="s2-3" id="s2-3a">
+                            <label class="form-check-label" for="s2-3a">
+                            Yes
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="s2-3" id="s2-3b">
+                            <label class="form-check-label" for="s2-3b">
+                            No
+                            </label>
+                        </div>
+
+                        <div class="form-text text-danger mb-3">If you answered 'Yes' to either c) or d), please go to <strong>Question 5</strong></div>
+
+                        <div class="form-text text-danger mb-3">If you answered 'No' to both c) and d), you can skip to <strong>Question 8</strong></div>
 
                     </div>
 
                 </fieldset>
 
+
+                <fieldset class="row mb-3 border rounded-3 p-3">
+
+                    <legend class="float-none w-auto px-3">3. Reserved Matters Applications</legend>
+
+
+                </fieldset>
 
 
 
