@@ -13208,3 +13208,7 @@ header.masthead-terms {
 header.masthead-about {
   background-image: url("../assets/img/about-bg.png");
 }
+
+header.masthead-contact {
+  background-image: url("../assets/img/contact-bg.png");
+}
