@@ -13210,3 +13210,7 @@ header.masthead-about {
 header.masthead-contact {
   background-image: url("../assets/img/contact-bg.png");
 }
+
+.sticky-md-top {
+  top: 110px !important;
+}
